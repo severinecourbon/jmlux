@@ -1,0 +1,33 @@
+header.page {
+  height: inherit;
+}
+.box {
+  margin-bottom: 30px;
+
+}
+/* Isotope Transitions
+------------------------------- */
+.isotope,
+.isotope .box {
+  -webkit-transition-duration: 0.7s;
+  -moz-transition-duration: 0.7s;
+  -o-transition-duration: 0.7s;
+  -ms-transition-duration: 0.7s;
+  transition-duration: 0.7s;
+}
+.isotope {
+  -webkit-transition-property: height, width;
+  -moz-transition-property: height, width;
+  -o-transition-property: height, width;
+  -ms-transition-property: height, width;
+  transition-property: height, width;
+
+}
+.isotope .box {
+  -webkit-transition-property: -webkit-transform, opacity;
+  -moz-transition-property: -moz-transform, opacity;
+  -o-transition-property: -o-transform, opacity;
+  -ms-transition-property: -ms-transform, opacity;
+  transition-property: transform, opacity;
+  padding: 3px;
+}

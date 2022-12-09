@@ -1,0 +1,458 @@
+body {
+  color: #000000;
+  font-size: 14px;
+  overflow-x: hidden;
+}
+
+p, a {
+  font-family: 'PT Sans', sans-serif;
+  font-weight: 400;
+  font-size: 12px;
+  color: #777777;
+  line-height: 18px;
+  letter-spacing: 0.1px;
+}
+
+h1 {
+  font-family: 'Raleway', sans-serif;
+  font-weight: 700;
+  font-size: 70px;
+  color: #000000;
+  line-height: 90px;
+  letter-spacing: 12px;
+  text-transform: uppercase;
+  text-align: center;
+  max-width: 600px;
+  margin: 0 auto;
+  opacity: 0.7;
+}
+
+h2 {
+  font-family: 'Raleway', sans-serif;
+  font-weight: 700;
+  font-size: 14px;
+  color: #000000;
+  line-height: 17px;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  text-align: center;
+}
+
+h2.projet {
+  font-size: 18px;
+  text-align: left;
+  margin-bottom: 25px;
+}
+
+
+
+
+
+h3 {
+  font-family: 'PT Sans', sans-serif;
+  font-size: 11px;
+  color: #000000;
+  font-weight: 700;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  padding-left: 15px;
+}
+
+h4 {
+  font-family: 'Raleway', sans-serif;
+  font-weight: 700;
+  font-size: 24px;
+  color: #ffffff;
+  line-height: 28px;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  text-align: center;
+}
+
+h5 {
+  font-family: 'Raleway', sans-serif;
+  font-weight: 700;
+  font-size: 14px;
+  color: #000000;
+  line-height: 17px;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  text-align: left;
+  border-bottom: 3px solid #F8B240;
+  width: 21px;
+  padding-bottom: 15px;
+}
+
+h6 {
+  font-family: 'Raleway', sans-serif;
+  font-weight: 700;
+  font-size: 14px;
+  color: #000000;
+  line-height: 17px;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+
+}
+
+h6.project-link {
+  font-size: 10px;
+      padding: 13px;
+}
+
+a, a:link, a:visited, a:focus, a:hover, a:active  {
+  text-decoration: none;
+  color: #777777;
+}
+
+a:hover {
+  color: #F8B240;
+  text-decoration: underline;
+}
+
+a.btn-close {
+ position: absolute;
+ top: -13px;
+ right: -40px;
+}
+
+a.btn-close > svg {
+  border: 1px solid #F8B240;
+  border-radius: 50%;
+  width: 42px;
+    height: 42px;
+    padding: 13px;
+    color: #F8B240;
+}
+
+a.project-link {
+  display: inline-flex;
+}
+
+a.project-link > svg {
+  border: 1px solid #F8B240;
+  border-radius: 50%;
+  width: 42px;
+    height: 42px;
+    padding: 13px;
+    color: #F8B240;
+}
+
+svg {
+  stroke-width : 1px;
+}
+
+
+
+header {
+  height: 700px;
+}
+
+.banner {
+  background-image: url("../img/jmlux-signaletique-home.jpg");
+  background-size: cover;
+  background-position: bottom;
+  height: 100%;
+}
+
+.banner-navbar {
+  position: absolute;
+  right: 20px;
+  top: 20px;
+}
+
+.banner-navbar > a {
+  color: #000000;
+}
+
+.banner-navbar > a:hover {
+  color: #F8B240;
+}
+
+.banner-navbar svg {
+  stroke-width: 2px;
+}
+
+.banner-header {
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  padding-top: 45px;
+  padding-bottom: 200px;
+}
+
+.banner-header-logo {
+  padding-right: 40px;
+}
+
+.banner-header-phone-and-search {
+  padding-right: 24%;
+}
+
+.banner-header-phone > a {
+  display: inline-flex;
+    color: #000000;
+}
+
+.banner-header-phone > a:hover, .banner-header-phone > a:hover > h3 {
+    color: #F8B240;
+}
+
+.banner-header-search {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.banner-header-search > a {
+  color: #000000;
+}
+
+.banner-header-search > a:hover {
+  color: #F8B240;
+}
+
+.banner-header-search svg {
+    stroke-width: 2px;
+    margin-top: 10px;
+}
+
+main {}
+
+section {
+  margin: 100px 0px;
+}
+
+section > h2 {
+  margin-bottom: 15px;
+}
+
+.icon-circle {
+  height: 80px;
+  width: 80px;
+  background-color: #F9F9F9;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0 auto;
+  margin-bottom: 30px;
+}
+
+a.icon-circle:hover, a.section-link:hover {
+  background-color: #F8B240;
+}
+
+a.icon-circle:hover > svg {
+  stroke: #ffffff;
+}
+
+a.section-link {
+  color: #666666;
+  font-size: 10px;
+  text-transform: uppercase;
+  font-family: 'PT Sans', sans-serif;
+  font-weight: 700;
+  text-align: center;
+  letter-spacing: 1px;
+}
+
+a.section-link:hover {
+  color: #F8B240;
+  background-color: #ffffff;
+  text-decoration: underline;
+}
+
+footer {
+  background-color: #FBFBFB;
+  padding: 100px 0px 190px 0px;
+}
+
+footer img {
+  margin-bottom: 50px;
+}
+
+ul {
+  padding-left: 10px;
+}
+
+li {
+  list-style: url('chevron-right.svg');
+}
+
+footer ul.list-with-border-bottom > li {
+  border-bottom: 1px solid #EEEEEE;
+  padding: 15px 0px;
+}
+
+footer svg {
+  height: 13px;
+}
+
+/*PAGE*/
+.page-header {
+  padding-bottom: 122px;
+}
+
+input, textarea {
+  display: block;
+  width: 80%;
+  border: 1px solid #666666;
+}
+
+textarea {
+  height: 170px;
+}
+
+/*button {
+  border: 1px solid #666666;
+  background-color: #ffffff;
+  color: #000000;
+  padding: 10px 50px;
+}*/
+
+button > h2 {
+  margin: 0;
+}
+
+main > .container {
+  padding: 100px 0px;
+}
+
+form > div {
+  margin-top: 25px;
+}
+
+label {
+  font-family: 'Raleway', sans-serif;
+  font-weight: 700;
+  font-size: 12px;
+  color: #000000;
+  line-height: 17px;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  text-align: center;
+}
+
+main h4 {
+  color: #000000;
+}
+
+#map { height: 460px; width: 100%; }
+
+@media screen and (max-width: 576px) {
+
+  h1 {
+    font-size: 40px;
+    line-height: 55px;
+    letter-spacing: 1px;
+    opacity: 0.6;
+  }
+
+  header {
+    height: 100vh;
+  }
+
+  .banner-header {
+    display: inherit;
+    text-align: center;
+  }
+
+  .banner-header-logo {
+    padding-right: 0px;
+  }
+
+  .banner-header-phone-and-search {
+    padding-right: 0px;
+    padding-top: 20px;
+  }
+
+  .banner-header-search {
+    display: none;
+  }
+
+  main {
+    margin: 80px 0px;
+    padding: 0px 50px;
+  }
+
+  section {
+    margin: 30px 0px;
+  }
+
+  footer {
+  padding: 100px 50px 190px 50px;
+  }
+
+  h5 {
+    padding-top: 60px;
+  }
+
+}
+
+
+
+
+.banner-navbar > span {
+  cursor: pointer;
+}
+
+.overlay {
+    height: 100%;
+    width: 0;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    background-color: rgba(248,178,64, 0.9);
+    overflow-x: hidden;
+    transition: 0.5s;
+}
+
+.overlay-content {
+    position: relative;
+    top: 15%;
+    width: 100%;
+    text-align: center;
+    margin-top: 30px;
+}
+
+.overlay-content > a > span {
+  background-color: #ffffff;
+  width: 20px;
+  height: 3px;
+  text-align: center;
+  margin: 30px auto;
+  display: block;
+}
+
+.overlay a {
+    padding: 8px;
+    text-decoration: none;
+    font-size: 36px;
+    color: #ffffff;
+    display: block;
+    transition: 0.3s;
+}
+
+.overlay a svg {
+  stroke-width : 2px;
+}
+
+.overlay a:hover, .overlay a:focus {
+    color: #ffffff;
+}
+
+.overlay .closebtn {
+    position: absolute;
+    top: 13px;
+    right: 12px;
+}
+
+@media screen and (max-height: 450px) {
+  .overlay a {font-size: 20px}
+  .overlay .closebtn {
+    font-size: 40px;
+    top: 15px;
+    right: 35px;
+  }
+
+}

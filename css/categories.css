@@ -1,0 +1,112 @@
+
+.header-title {
+ background-color: #F9F9F9;
+ width: 100%;
+ height: 80px;
+}
+
+.header-title > h1 {
+  font-size: 26px;
+}
+
+button.btn-sub-category {
+font-family: 'Raleway', sans-serif;
+  font-weight: 700;
+  font-size: 12px;
+  color: #000000;
+  line-height: 17px;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  text-align: center;
+border:none;
+  padding-top: 20px;
+  padding-right: 15px;
+  padding-left: 15px;
+  padding-bottom: 20px;
+  background-color: #ffffff;
+}
+
+.button-group {
+  border-bottom: 1px solid #EEEEEE !important;
+}
+
+.button-group:last-child {
+  border: none;
+}
+
+button.btn-sub-category:active, button.btn-sub-category:link,
+button.btn-sub-category:visited, button.btn-sub-category:focus, button.btn-sub-category:focus-within
+ {
+    outline: none;
+
+
+}
+
+button.btn-sub-category:hover , button.btn-sub-category:focus{
+    border-bottom: 2px solid #F8B240;
+  border-width: 0 0 2px 0;
+}
+
+a.btn-sub-category {
+font-family: 'Raleway', sans-serif;
+  font-weight: 700;
+  font-size: 12px;
+  color: #000000;
+  line-height: 17px;
+  letter-spacing: 2px;
+  text-align: center;
+border:none;
+  padding-top: 20px;
+  padding-right: 15px;
+  padding-left: 15px;
+  padding-bottom: 20px;
+  background-color: #FF0000;
+  color: #ffffff;
+  border: 2px solid #FF0000;
+}
+.btn-marcal {
+
+}
+
+.boxes {
+  display: flex !important;
+  justify-content: space-between !important;
+}
+
+.isotope-item > a > h2 {
+  text-align: left;
+  margin-top: 20px;
+}
+
+.boxes-height {
+  overflow: initial !important;
+}
+
+@media (min-width: 1200px) {
+  .container, .container-lg, .container-md, .container-sm, .container-xl {
+    max-width: 1200px;
+}
+}
+
+@media screen and (max-width: 576px) {
+main {
+    margin: 10px 0px;
+    padding: 0px 40px;}
+.page-header {
+    padding-bottom: 50px;}
+main > .container:nth-child(2n+0) {
+    padding: 0px 0px;
+    margin: 5px 0px 50px 0px;}
+h2.projet {
+    margin-top: 50px;
+}
+a.btn-close {
+  position: inherit;
+    margin-left: 73%;}
+img {
+  width: inherit;
+}
+}
+
+
+
